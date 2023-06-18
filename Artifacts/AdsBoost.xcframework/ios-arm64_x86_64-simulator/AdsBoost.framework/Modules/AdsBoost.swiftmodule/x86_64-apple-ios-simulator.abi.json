@@ -1,0 +1,237 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsBoost",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserMessagingPlatform",
+        "printedName": "UserMessagingPlatform",
+        "declKind": "Import",
+        "moduleName": "AdsBoost"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Main",
+        "printedName": "Main",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Main",
+                "printedName": "AdsBoost.Main",
+                "usr": "c:@M@AdsBoost@objc(cs)Main"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AdsBoost4MainC6sharedACvpZ",
+            "mangledName": "$s8AdsBoost4MainC6sharedACvpZ",
+            "moduleName": "AdsBoost",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Main",
+                    "printedName": "AdsBoost.Main",
+                    "usr": "c:@M@AdsBoost@objc(cs)Main"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AdsBoost4MainC6sharedACvgZ",
+                "mangledName": "$s8AdsBoost4MainC6sharedACvgZ",
+                "moduleName": "AdsBoost",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdsBoost4MainC6loadAdyyF",
+            "mangledName": "$s8AdsBoost4MainC6loadAdyyF",
+            "moduleName": "AdsBoost",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterstitialAd",
+            "printedName": "showInterstitialAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdsBoost4MainC18showInterstitialAd4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s8AdsBoost4MainC18showInterstitialAd4fromySo16UIViewControllerC_tF",
+            "moduleName": "AdsBoost",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdsBoost@objc(cs)Main",
+        "mangledName": "$s8AdsBoost4MainC",
+        "moduleName": "AdsBoost",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sparsh\/Developer\/Company - SCI\/AdsBoost\/Sources\/Main.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 40,
+      "value": "\"ca-app-pub-3940256099942544\/4411468910\""
+    },
+    {
+      "filePath": "\/Users\/sparsh\/Developer\/Company - SCI\/AdsBoost\/Sources\/Main.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 74,
+      "value": "\"Failed to load interstitial ad with error: \""
+    },
+    {
+      "filePath": "\/Users\/sparsh\/Developer\/Company - SCI\/AdsBoost\/Sources\/Main.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sparsh\/Developer\/Company - SCI\/AdsBoost\/Sources\/Main.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 36,
+      "value": "\"Interstitial Ad Load Successfully.\""
+    },
+    {
+      "filePath": "\/Users\/sparsh\/Developer\/Company - SCI\/AdsBoost\/Sources\/Main.swift",
+      "kind": "StringLiteral",
+      "offset": 1542,
+      "length": 18,
+      "value": "\"Error showing ad\""
+    }
+  ]
+}

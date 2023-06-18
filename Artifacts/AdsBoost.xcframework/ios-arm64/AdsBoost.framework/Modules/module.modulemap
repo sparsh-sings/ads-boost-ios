@@ -1,0 +1,11 @@
+framework module AdsBoost {
+  umbrella header "AdsBoost.h"
+
+  export *
+  module * { export * }
+}
+
+module AdsBoost.Swift {
+  header "AdsBoost-Swift.h"
+  requires objc
+}
